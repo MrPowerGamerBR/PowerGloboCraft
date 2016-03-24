@@ -33,7 +33,7 @@ public class GloboCommand implements CommandExecutor {
 				ItemStack book = new ItemStack(Material.WRITTEN_BOOK);
 				BookMeta meta = (BookMeta) book.getItemMeta();
 				
-				if (inventoryCanHoldItem(p.getInventory(), book)) {
+				if (!inventoryCanHoldItem(p.getInventory(), book)) {
 					p.sendMessage(PowerGloboCraft.prefix + "§cVocê não tem espaço no seu inventário!");
 					return;
 				}
