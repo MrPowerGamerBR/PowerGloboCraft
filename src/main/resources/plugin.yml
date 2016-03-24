@@ -1,0 +1,7 @@
+name: PowerGloboCraft
+main: com.mrpowergamerbr.powerglobocraft.PowerGloboCraft
+version: 1.0.0
+commands:
+   globo:
+      description: Globo
+      usage: /<command>

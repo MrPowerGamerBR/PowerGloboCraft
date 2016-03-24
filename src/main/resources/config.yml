@@ -1,0 +1,8 @@
+#
+# Temmie Updater - Verificador de Atualizações
+#
+# Criado por MrPowerGamerBR
+#
+TemmieUpdater:
+    VerificarUpdates: true
+    TemmieMetrics: true
