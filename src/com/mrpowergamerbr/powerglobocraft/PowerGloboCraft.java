@@ -11,7 +11,7 @@ public class PowerGloboCraft extends JavaPlugin implements Listener {
 	
 	public static final String pluginName = "PowerGloboCraft";
 
-	public static final String pluginVersion = "v1.0.0";
+	public static final String pluginVersion = "v1.0.1";
 	
 	@Override
 	public void onEnable() {

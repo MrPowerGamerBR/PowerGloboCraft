@@ -51,7 +51,7 @@ public class GloboCommand implements CommandExecutor {
 					List<String> pages = new ArrayList<String>();
 					Elements media2 = doc.getElementsByClass("destaque-showtime__highlight-link");
 
-					pages.add("§c§lGLOBO NEWS\n" + "§0Edição das " + Calendar.getInstance().get(Calendar.HOUR_OF_DAY) + ":" + Calendar.getInstance().get(Calendar.MINUTE) + " - " + Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + "/" + Calendar.getInstance().get(Calendar.MONTH) + "/" + Calendar.getInstance().get(Calendar.YEAR));
+					pages.add("§c§lGLOBO NEWS\n" + "§0Edição das " + Calendar.getInstance().get(Calendar.HOUR_OF_DAY) + ":" + Calendar.getInstance().get(Calendar.MINUTE) + " - " + Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + "/" + (Calendar.getInstance().get(Calendar.MONTH) + 1) + "/" + Calendar.getInstance().get(Calendar.YEAR));
 
 					for (Element src : media2) {
 						Elements link = src.getElementsByClass("gui-text-title");
